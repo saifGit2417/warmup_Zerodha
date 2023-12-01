@@ -1,0 +1,163 @@
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #eee;
+}
+.navList span {
+  color: #666;
+  cursor: pointer;
+}
+.navList span:hover {
+  color: #387ed1;
+}
+.logo img {
+  height: 25px;
+  width: 140px;
+  cursor: pointer;
+}
+.navList {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.landingPageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landingPageContainer img {
+  width: 65%;
+  margin-top: 40px;
+}
+.textContainer {
+  text-align: center;
+  color: #424242;
+}
+.textContainer h1 {
+  font-size: 2.75rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+}
+.textContainer h5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.textContainer button {
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.textContainer button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.calculatorConatiner {
+  max-width: 50%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headText {
+  text-align: center;
+  color: #333;
+}
+
+.calculator {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inputFields {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.resultBox {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  width: 50%;
+  word-wrap: break-word;
+}
+
+.resultBox p {
+  margin: 0;
+  color: #666;
+}
+
+#resultText {
+  font-size: 24px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#resetBtn {
+  background-color: #f44336;
+}
